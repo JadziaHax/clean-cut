@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'clean-cut'
+CleanCut.cut(string_to_cut: ARGV[0], character_limit: ARGV[1])
